@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 50vw;
+  min-height: 50vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  background-color: lightcoral;
+  color: white;
+  position: relative;
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+}
+
+.ctr {
+  font-size: 400%;
+}
